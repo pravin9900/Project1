@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="134.165">
+    <testcase classname="Verify home page functionality" name="Search for flights" time="25.474">
+        <system-out><![CDATA[Given Open makemyTrip website...............................................passed
+When click on flights header................................................passed
+And enter from and to city..................................................passed
+And click on search button..................................................passed
+Then verify available flight on flight result page..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify home page functionality" name="search for flights" time="36.626">
+        <system-out><![CDATA[Given Open makemyTrip website...............................................passed
+When click on flights header................................................passed
+And enter from "Mumbai" and "Pune" to city..................................passed
+And click on search button..................................................passed
+Then apply filter "Go First" to flight result page..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify home page functionality" name="search for flights 2" time="34.048">
+        <system-out><![CDATA[Given Open makemyTrip website...............................................passed
+When click on flights header................................................passed
+And enter from "Bengaluru" and "Mumbai" to city.............................passed
+And click on search button..................................................passed
+Then apply filter "IndiGo" to flight result page............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify home page functionality" name="search for flights 3" time="37.629">
+        <system-out><![CDATA[Given Open makemyTrip website...............................................passed
+When click on flights header................................................passed
+And enter from "Chennai" and "Mumbai" to city...............................passed
+And click on search button..................................................passed
+Then apply filter "Air India" to flight result page.........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
